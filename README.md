@@ -1,6 +1,6 @@
-# Bridge
+# Azure Relay Bridge Demos
 
-## Links
+## Background
 
 [Azure Relay documentation](https://learn.microsoft.com/en-us/azure/azure-relay/)
 
@@ -24,7 +24,7 @@ The above gives use ~20 euros per month for the below architecture + data transf
 
 ## Scenario
 
-Grab latest version of [Azure Relay Bridge](https://github.com/Azure/azure-relay-bridge/releases/latest).
+Download latest version of [Azure Relay Bridge](https://github.com/Azure/azure-relay-bridge/releases/latest).
 
 Add `azbridge` to path or add full path to `$azbridge`:
 
