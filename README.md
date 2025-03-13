@@ -1,4 +1,4 @@
-# Azure Relay Bridge Demos
+# Azure Relay Bridge Demo
 
 ## Background
 
