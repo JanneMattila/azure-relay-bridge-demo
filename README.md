@@ -132,6 +132,21 @@ Output:
 "Response from Edge Service"
 ```
 
+If you need to upload data, then you can use the following command:
+
+```powershell
+curl -H "Authorization: custom 123" -H "application/octet-stream" --data-binary "@10MB.bin" "http://localhost:9000/"
+
+curl -H "Authorization: custom 123" -H "application/octet-stream" --data-binary "@100MB.bin" "http://localhost:9000/"
+```
+
+To generate large files, you can use e.g., WSL and `truncate` command:
+
+```bash
+truncate -s 100M 100MB.bin
+truncate -s 10M 10MB.bin
+```
+
 ### Possible issues
 
 #### Server side redirects
